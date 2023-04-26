@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   A portfolio/personal blog of a grumpy ecurity engineer.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://h0c0b.github.io/"
+url: ""
 
 github:
   username: https://github.com/h0c0b # change to your github username
@@ -45,7 +45,7 @@ social:
     - https://github.com/h0c0b  # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    https://www.linkedin.com/in/stephannosov/
+    - https://www.linkedin.com/in/stephannosov/
 
 google_site_verification: # fill in to your verification string
 
