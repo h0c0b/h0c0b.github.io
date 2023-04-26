@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Intro"
-date:   2023-04-25 23:18:39 +0100
-categories: devsecops homelab
----
-Designers showcase their projects through portfolios, developers' repos speaks for itself, security researchers boast with their names in various Cybersec halls of fame or CVEs, threat hunters share their experience tracking and pinning down yet another APT. What can an average security engineer of the security department do to demonstrate proficiency? They can build a setup that closely resembles an enterprise environment, with multiple accounts (perhaps across cloud platforms), applications, databases, CI/CD, a mix of VMs and k8s.
-Unlike the "Goat"-like projects establishing purposly vulnerable setups, the goal of this project wouyld be to build thing the right way adhereing to the best practices for securing computer networks and systems. Apart from demonstrating the skills, one can also use a by-product of this exercise - enterprise-grade blueprints - in one's future work.
-Through this series, I hope to share my experience and knowledge gained from working on this project, as well as the challenges faced, the solutions implemented, and the results achieved.
