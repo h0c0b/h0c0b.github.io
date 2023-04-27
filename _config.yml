@@ -32,7 +32,10 @@ github:
   username: h0c0b # change to your github username
 
 twitter:
-  username: tg_name # change to your twitter username
+  username: buggy_c0d3r # change to your twitter username
+
+tg:
+  username: buggy_c0d3r 
 
 social:
   # Change to your full name.
@@ -41,7 +44,7 @@ social:
   email: stephan@hocob.cc # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://t.me/username # change to your twitter homepage
+    - https://t.me/buggy_c0d3r # change to your twitter homepage
     - https://github.com/h0c0b  # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
