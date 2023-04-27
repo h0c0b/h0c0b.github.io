@@ -6,6 +6,9 @@
 - type: twitter
   icon: "fab fa-telegram"
 
+- type: tg
+  icon: "fab fa-telegram"
+
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
