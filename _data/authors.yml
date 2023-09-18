@@ -18,5 +18,6 @@
 
 octi:
   name: Octi
-  twitter: buggy_c0d3r
+  #twitter: buggy_c0d3r
+  tg: buggy_c0d3r
   url: https://github.com/h0c0b

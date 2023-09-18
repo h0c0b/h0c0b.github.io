@@ -20,10 +20,10 @@ timezone: Europe/Luxembourg
 
 title: OctiToxiSec # the main title
 
-tagline: Grumpy Security Engineer's Blog # it will display as the sub-title
+tagline: Grumpy Infosec # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A portfolio/personal blog of a grumpy security engineer.
+  A security engineer's portfolio/personal project.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://h0c0b.github.io/"
@@ -31,8 +31,8 @@ url: "https://h0c0b.github.io/"
 github:
   username: h0c0b # change to your github username
 
-#twitter:
-#  username: buggy_c0d3r # change to your twitter username
+twitter:
+  username: buggy_c0d3r # change to your twitter username
 
 tg:
   username: buggy_c0d3r 
