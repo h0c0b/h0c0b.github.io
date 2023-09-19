@@ -20,7 +20,7 @@ timezone: Europe/Luxembourg
 
 title: OctiToxiSec # the main title
 
-tagline: Grumpy Infosec # it will display as the sub-title
+tagline: Grumpy Infosec Blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A security engineer's portfolio/personal project.
