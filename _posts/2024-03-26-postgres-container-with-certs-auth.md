@@ -15,12 +15,13 @@ To my surprise there appeared to be not so many tutorials that worked with my pa
 
 ## Off we go
 According to the official [postgres docs](https://www.postgresql.org/docs/current/ssl-tcp.html) we'll need these four files for the server:
-| File                                   | Purpose                                  |
-|----------------------------------------|:-----------------------------------------|
-| ssl_cert_file ($PGDATA/server.crt)     | server certificate that indicates server's identity to the client|
+
+| File                                   | Purpose                                                        |
+|----------------------------------------|:---------------------------------------------------------------|
+| ssl_cert_file ($PGDATA/server.crt)     | server certificate that indicates server's identity to the client |
 | ssl_key_file ($PGDATA/server.key)      | server key for the server cert |
-| ssl_ca_file                            | certificate of the Certification Authority that establishes the trust for both client and server certs|
-| ssl_crl_file                           | certificate revokation list (speaks for itself)|
+| ssl_ca_file                            | certificate of the Certification Authority that establishes the trust for both client and server certs |
+| ssl_crl_file                           | certificate revokation list (speaks for itself) |
 
 We are also going to need the client key and corresponding certificate in order to be able to connect to our server.
 
