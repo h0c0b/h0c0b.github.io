@@ -167,8 +167,8 @@ Try remote connection to the database with the user and password we've set up in
 
 Let's move on to seting up our client. The CN for the client certificate must match the username of the client in the database (in our case it will be pguser). Generate and sign the key for the client:
 ```bash
-$ $ certstrap request-cert --common-name pguser  --domain localhost
-$ $ certstrap sign pguser --CA CertAuth
+$ certstrap request-cert --common-name pguser  --domain localhost
+$ certstrap sign pguser --CA CertAuth
 ```
 You can use either a console client or a GUI however the approach will be the same, you need to set up the following parameters:
 - sslcert points to your client cert
@@ -176,7 +176,13 @@ You can use either a console client or a GUI however the approach will be the sa
 - sslrootcert points to the CA certificate
 - sslmode is set to verify-full
 - port is 5435
-- database is postgres
-- username is pguser
+- database is the value of `POSTGRES_DB`
+- username is the value of `POSTGRES_USER` 
 
 This should be enogh for the server to let you in regardless of which password you provide for the pguser! Modifying the username, the host, sslrootcert or PGSSLMODE variables should lead to "Connection refused" errors. 
+Here is an example for a `go migrate` command:
+```bash
+$ migrate -path db/migration -database "postgres://pguser:any@localhost:5435/simplebank?sslmode=verify-full&sslcert=db/conf/pki/out/pguser.crt&sslkey=db/conf/pki/out/pguser.key&sslrootcert=db/conf/pki/out/CertAuth.crt" -verbose up
+```
+
+
